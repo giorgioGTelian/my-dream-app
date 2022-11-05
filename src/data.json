@@ -1,0 +1,94 @@
+{
+    "recepies": [
+        {
+            "id":1,
+            "title": "best city ever",
+            "description": "this the best city in the world",
+            "serves": "2000 people",
+            "imageUrl": "assets/City.JPG.jpg",
+            "ingredients": [
+                {
+                    "amount": "1 city",
+                    "name": "metropolis"
+
+                },
+                {
+                    "amount": "2 city",
+                    "name": "ciao"
+
+                },
+                {
+                    "amount": "3 city",
+                    "name": "milan"
+
+                }
+            ],
+            "instruction": [
+                "remove the pavements",
+                "remove traffic lights",
+                "remove police",
+                "remove lawyers"
+            ]
+        },
+        {
+            "id":2,
+            "title": "best house ever",
+            "description": "this the best house in the world",
+            "serves": "20 people",
+            "imageUrl": "assets/House.JPG.jpg",
+            "ingredients": [
+                {
+                    "amount": "1 house",
+                    "name": "flat"
+
+                },
+                {
+                    "amount": "2 house",
+                    "name": "condo"
+
+                },
+                {
+                    "amount": "3 house",
+                    "name": "bungalow"
+
+                }
+            ],
+            "instruction": [
+                "add the pavements",
+                "add lights",
+                "add smiles",
+                "add dogs"
+            ]
+        },
+        {
+            "id":3,
+            "title": "best tree ever",
+            "description": "this the best tree in the world",
+            "serves": "2 people",
+            "imageUrl": "assets/Tree.JPG.jpg",
+            "ingredients": [
+                {
+                    "amount": "1 bark",
+                    "name": "pine"
+
+                },
+                {
+                    "amount": "2 barks",
+                    "name": "birtch"
+
+                },
+                {
+                    "amount": "3 leaf",
+                    "name": "oak"
+
+                }
+            ],
+            "instruction": [
+                "remove the bark",
+                "remove insects",
+                "add fertilizer",
+                "add manure"
+            ]
+        }
+    ]
+}
