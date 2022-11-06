@@ -10,7 +10,7 @@ export class Recipe implements IRecipe{
     ingredients: Ingredient[];
     instructions: string[];
 
-    constructor ({id,title,description,serves,imageUrl,ingredients,
+    constructor ({id, title, description,serves,imageUrl,ingredients,
     instructions}) {
         this.id = id;
         this.title = title;
