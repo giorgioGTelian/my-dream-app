@@ -1,12 +1,12 @@
-import { Ingredient } from "./ingredient";
+import { IIngredient } from "./ingredient";
 
-export interface Recipe {
+export interface IRecipe {
 id: number;
 title: string;
 description: string;
 servers: string;
 imageUrl: string;
-ingredients: Ingredient[];
-instruction: string[];
+ingredients: IIngredient[];
+instructions: string[];
 }
 

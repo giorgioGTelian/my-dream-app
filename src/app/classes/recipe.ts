@@ -1,4 +1,4 @@
-import { Ingredient } from "../interfaces/ingredient";
+import { IIngredient } from "../interfaces/ingredient";
 import { IRecipe } from "../interfaces/recipe";
 
 export class Recipe implements IRecipe{
@@ -7,11 +7,10 @@ export class Recipe implements IRecipe{
     description: string;
     serves: string;
     imageUrl: string;
-    ingredients: Ingredient[];
+    ingredients: IIngredient[];
     instructions: string[];
 
-    constructor ({id, title, description,serves,imageUrl,ingredients,
-    instructions}) {
+    constructor ({id, title, description, serves, imageUrl, ingredients, instructions}) {
         this.id = id;
         this.title = title;
         this.description = description;

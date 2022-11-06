@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Ingredient } from '../interfaces/ingredient';
+import { IIngredient } from '../interfaces/ingredient';
 import * as RecipeData from '../../data.json';
 import { IRecipe } from "../interfaces/recipe";
 import * as _ from 'lodash';
