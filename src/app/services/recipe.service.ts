@@ -14,7 +14,7 @@ export class RecipeService {
   constructor() { 
     (<any>RecipeData).recipes.forEach( recipe => {
       this.recipes.push( new Recipe(recipe));
-    })
+    });
   }
 
   public getRecipes(): Recipe[] {
