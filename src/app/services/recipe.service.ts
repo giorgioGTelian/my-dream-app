@@ -11,11 +11,11 @@ import { Recipe } from '../classes/recipe';
 export class RecipeService {
   private recipes: Recipe [] = [];
 
-  constructor() { 
-    (<any>RecipeData).recipe.forEach( recipe => {
-      this.recipes.push( new Recipe(recipe));
-    });
-  }
+  // constructor() { 
+  //   (<any>RecipeData).recipe.forEach( recipe => {
+  //     this.recipes.push( new Recipe(recipe));
+  //   });
+  // }
 
   public getRecipes(): Recipe[] {
     return this.recipes;
