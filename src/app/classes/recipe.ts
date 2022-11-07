@@ -2,13 +2,13 @@ import { IIngredient } from "../interfaces/ingredient";
 import { IRecipe } from "../interfaces/recipe";
 
 export class Recipe implements IRecipe{
-    id: number;
-    title: string;
-    description: string;
-    serves: string;
-    imageUrl: string;
-    ingredients: IIngredient[];
-    instructions: string[];
+    id: any;
+    title: any;
+    description: any;
+    serves: any;
+    imageUrl: any;
+    ingredients: any;
+    instructions: any;
 
     constructor ({id, title, description, serves, imageUrl, ingredients, instructions}) {
         this.id = id;
@@ -19,6 +19,6 @@ export class Recipe implements IRecipe{
         this.ingredients = ingredients;
         this.instructions = instructions;
     }
-    servers!: string;
-    instruction: string[] = [];
+    servers!: any;
+    instruction: any;
 }
