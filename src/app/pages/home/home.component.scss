@@ -1,0 +1,10 @@
+.jumbotron {
+    background: url('/assets/House.JPG.jpg');
+    background-size: cover;
+    border-radius: 0;
+}
+
+.jumbotron-heading, p.lead {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
