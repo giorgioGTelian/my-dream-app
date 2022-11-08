@@ -7,4 +7,22 @@
 .jumbotron-heading, p.lead {
     color: white;
     text-shadow: 2px 2px 5px black;
+    
+}
+.jumbotron-heading {
+    padding: 45px 0;
+    background: transparent;
+    width: 100%;
+    min-height: 250px;
+    height: 250px;
+    float: none;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+
+.card {
+    margin-bottom: 20px;
+    width: auto;
 }
