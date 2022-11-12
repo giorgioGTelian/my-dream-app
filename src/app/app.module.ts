@@ -1,8 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
+
+
 //app components 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
+
 //services
 import { RecipeService } from './services/recipe.service';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -23,7 +28,8 @@ import { ShowRecipeComponent } from './pages/show-recipe/show-recipe.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [RecipeService],
   bootstrap: [AppComponent]
